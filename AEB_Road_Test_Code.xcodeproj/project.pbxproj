@@ -7,7 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D53655FC21C2551900A7253D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = D53655FB21C2551900A7253D /* main.c */; };
+		D536562F21C2574F00A7253D /* datapage.c in Sources */ = {isa = PBXBuildFile; fileRef = D536561E21C2574E00A7253D /* datapage.c */; };
+		D536563021C2574F00A7253D /* process.c in Sources */ = {isa = PBXBuildFile; fileRef = D536561F21C2574E00A7253D /* process.c */; };
+		D536563121C2574F00A7253D /* init.c in Sources */ = {isa = PBXBuildFile; fileRef = D536562221C2574F00A7253D /* init.c */; };
+		D536563221C2574F00A7253D /* calc_accy.c in Sources */ = {isa = PBXBuildFile; fileRef = D536562321C2574F00A7253D /* calc_accy.c */; };
+		D536563321C2574F00A7253D /* COP_Drv.c in Sources */ = {isa = PBXBuildFile; fileRef = D536562421C2574F00A7253D /* COP_Drv.c */; };
+		D536563421C2574F00A7253D /* operate.c in Sources */ = {isa = PBXBuildFile; fileRef = D536562521C2574F00A7253D /* operate.c */; };
+		D536563521C2574F00A7253D /* CAN.c in Sources */ = {isa = PBXBuildFile; fileRef = D536562721C2574F00A7253D /* CAN.c */; };
+		D536563621C2574F00A7253D /* simfun.c in Sources */ = {isa = PBXBuildFile; fileRef = D536562821C2574F00A7253D /* simfun.c */; };
+		D536563721C2574F00A7253D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = D536562921C2574F00A7253D /* main.c */; };
+		D536563821C2574F00A7253D /* Start12.c in Sources */ = {isa = PBXBuildFile; fileRef = D536562A21C2574F00A7253D /* Start12.c */; };
+		D536563921C2574F00A7253D /* calc_dis.c in Sources */ = {isa = PBXBuildFile; fileRef = D536562D21C2574F00A7253D /* calc_dis.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +34,23 @@
 
 /* Begin PBXFileReference section */
 		D53655F821C2551900A7253D /* AEB_Road_Test_Code */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AEB_Road_Test_Code; sourceTree = BUILT_PRODUCTS_DIR; };
-		D53655FB21C2551900A7253D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		D536561E21C2574E00A7253D /* datapage.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = datapage.c; path = ../../../Test/datapage.c; sourceTree = "<group>"; };
+		D536561F21C2574E00A7253D /* process.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = process.c; path = ../../../Test/process.c; sourceTree = "<group>"; };
+		D536562021C2574E00A7253D /* CAN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAN.h; path = ../../../Test/CAN.h; sourceTree = "<group>"; };
+		D536562121C2574E00A7253D /* operate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = operate.h; path = ../../../Test/operate.h; sourceTree = "<group>"; };
+		D536562221C2574F00A7253D /* init.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = init.c; path = ../../../Test/init.c; sourceTree = "<group>"; };
+		D536562321C2574F00A7253D /* calc_accy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = calc_accy.c; path = ../../../Test/calc_accy.c; sourceTree = "<group>"; };
+		D536562421C2574F00A7253D /* COP_Drv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = COP_Drv.c; path = ../../../Test/COP_Drv.c; sourceTree = "<group>"; };
+		D536562521C2574F00A7253D /* operate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = operate.c; path = ../../../Test/operate.c; sourceTree = "<group>"; };
+		D536562621C2574F00A7253D /* para.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = para.h; path = ../../../Test/para.h; sourceTree = "<group>"; };
+		D536562721C2574F00A7253D /* CAN.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = CAN.c; path = ../../../Test/CAN.c; sourceTree = "<group>"; };
+		D536562821C2574F00A7253D /* simfun.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = simfun.c; path = ../../../Test/simfun.c; sourceTree = "<group>"; };
+		D536562921C2574F00A7253D /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main.c; path = ../../../Test/main.c; sourceTree = "<group>"; };
+		D536562A21C2574F00A7253D /* Start12.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Start12.c; path = ../../../Test/Start12.c; sourceTree = "<group>"; };
+		D536562B21C2574F00A7253D /* init.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = init.h; path = ../../../Test/init.h; sourceTree = "<group>"; };
+		D536562C21C2574F00A7253D /* derivative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = derivative.h; path = ../../../Test/derivative.h; sourceTree = "<group>"; };
+		D536562D21C2574F00A7253D /* calc_dis.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = calc_dis.c; path = ../../../Test/calc_dis.c; sourceTree = "<group>"; };
+		D536562E21C2574F00A7253D /* COP_Drv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = COP_Drv.h; path = ../../../Test/COP_Drv.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +83,23 @@
 		D53655FA21C2551900A7253D /* AEB_Road_Test_Code */ = {
 			isa = PBXGroup;
 			children = (
-				D53655FB21C2551900A7253D /* main.c */,
+				D536562321C2574F00A7253D /* calc_accy.c */,
+				D536562D21C2574F00A7253D /* calc_dis.c */,
+				D536562721C2574F00A7253D /* CAN.c */,
+				D536562021C2574E00A7253D /* CAN.h */,
+				D536562421C2574F00A7253D /* COP_Drv.c */,
+				D536562E21C2574F00A7253D /* COP_Drv.h */,
+				D536561E21C2574E00A7253D /* datapage.c */,
+				D536562C21C2574F00A7253D /* derivative.h */,
+				D536562221C2574F00A7253D /* init.c */,
+				D536562B21C2574F00A7253D /* init.h */,
+				D536562921C2574F00A7253D /* main.c */,
+				D536562521C2574F00A7253D /* operate.c */,
+				D536562121C2574E00A7253D /* operate.h */,
+				D536562621C2574F00A7253D /* para.h */,
+				D536561F21C2574E00A7253D /* process.c */,
+				D536562821C2574F00A7253D /* simfun.c */,
+				D536562A21C2574F00A7253D /* Start12.c */,
 			);
 			path = AEB_Road_Test_Code;
 			sourceTree = "<group>";
@@ -119,7 +161,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D53655FC21C2551900A7253D /* main.c in Sources */,
+				D536563321C2574F00A7253D /* COP_Drv.c in Sources */,
+				D536563821C2574F00A7253D /* Start12.c in Sources */,
+				D536563121C2574F00A7253D /* init.c in Sources */,
+				D536562F21C2574F00A7253D /* datapage.c in Sources */,
+				D536563621C2574F00A7253D /* simfun.c in Sources */,
+				D536563521C2574F00A7253D /* CAN.c in Sources */,
+				D536563721C2574F00A7253D /* main.c in Sources */,
+				D536563921C2574F00A7253D /* calc_dis.c in Sources */,
+				D536563221C2574F00A7253D /* calc_accy.c in Sources */,
+				D536563421C2574F00A7253D /* operate.c in Sources */,
+				D536563021C2574F00A7253D /* process.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
